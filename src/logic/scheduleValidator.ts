@@ -99,6 +99,9 @@ export function detectTravelTimeShortage(
       const prevItem = sorted[i];
       const nextItem = sorted[i + 1];
 
+      // 이동 카테고리 항목이 선행이면 이동 자체가 일정에 포함된 것이므로 스킵
+      if (prevItem.category === '이동') continue;
+
       // 해당 구간의 TravelSegment 찾기
       const segment = segments.find(
         (s) => s.fromItemId === prevItem.id && s.toItemId === nextItem.id

@@ -9,13 +9,21 @@ export interface ScheduleCardProps {
   item: ScheduleItem;
   warnings: Warning[];
   businessHoursInfo: BusinessHoursCheckResult | null;
+  onClick?: () => void;
 }
 
-export function ScheduleCard({ item, warnings, businessHoursInfo }: ScheduleCardProps) {
+export function ScheduleCard({ item, warnings, businessHoursInfo, onClick }: ScheduleCardProps) {
   const { placeName, startTime, endTime, category, estimatedCost, memo } = item;
 
   return (
-    <article className={styles.card}>
+    <article
+      className={styles.card}
+      onClick={onClick}
+      style={{ cursor: onClick ? 'pointer' : 'default' }}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={onClick ? (e) => { if (e.key === 'Enter' || e.key === ' ') onClick(); } : undefined}
+    >
       {/* Top section: time range + category badge */}
       <div className={styles.topSection}>
         <span className={styles.timeRange}>

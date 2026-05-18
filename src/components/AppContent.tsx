@@ -5,6 +5,7 @@ import { DayTabs } from '@/components/DayTabs/DayTabs';
 import { TimelineView } from '@/components/TimelineView/TimelineView';
 import { CostSummaryView } from '@/components/CostSummaryView/CostSummaryView';
 import { MapView } from '@/components/MapView/MapView';
+import { ContentTabs } from '@/components/ContentTabs/ContentTabs';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { validateSchedule } from '@/logic/scheduleValidator';
 import { calculateDailyCosts, calculateTotalCosts } from '@/logic/costCalculator';
@@ -76,14 +77,18 @@ export function AppContent() {
         />
       }
     >
-      <TimelineView
-        scheduleItems={items}
-        travelSegments={segments}
-        warnings={warnings}
-        businessHoursResults={businessHoursResults}
+      <ContentTabs
+        scheduleContent={
+          <TimelineView
+            scheduleItems={items}
+            travelSegments={segments}
+            warnings={warnings}
+            businessHoursResults={businessHoursResults}
+          />
+        }
+        mapContent={<MapView scheduleItems={items} />}
+        costContent={<CostSummaryView dailyCosts={dailyCosts} totalCost={totalCost} />}
       />
-      <MapView scheduleItems={items} />
-      <CostSummaryView dailyCosts={dailyCosts} totalCost={totalCost} />
     </Layout>
   );
 }

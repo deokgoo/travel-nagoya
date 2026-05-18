@@ -1,13 +1,6 @@
 [
   {
     "fromItemId": "day1-01",
-    "toItemId": "day1-02",
-    "mode": "전철",
-    "durationMinutes": 50,
-    "cost": 1170
-  },
-  {
-    "fromItemId": "day1-02",
     "toItemId": "day1-03",
     "mode": "도보",
     "durationMinutes": 5,
@@ -65,20 +58,41 @@
   {
     "fromItemId": "day2-02",
     "toItemId": "day2-03",
-    "mode": "전철",
-    "durationMinutes": 60,
-    "cost": 630
+    "mode": "도보",
+    "durationMinutes": 1,
+    "cost": 0
   },
   {
     "fromItemId": "day2-03",
     "toItemId": "day2-04",
     "mode": "전철",
-    "durationMinutes": 60,
-    "cost": 630
+    "durationMinutes": 5,
+    "cost": 200
   },
   {
     "fromItemId": "day2-04",
     "toItemId": "day2-05",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day2-05",
+    "toItemId": "day2-06",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day2-06",
+    "toItemId": "day2-07",
+    "mode": "도보",
+    "durationMinutes": 1,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day2-07",
+    "toItemId": "day2-08",
     "mode": "도보",
     "durationMinutes": 3,
     "cost": 0
@@ -87,40 +101,61 @@
     "fromItemId": "day3-01",
     "toItemId": "day3-02",
     "mode": "도보",
-    "durationMinutes": 5,
+    "durationMinutes": 3,
     "cost": 0
   },
   {
     "fromItemId": "day3-02",
     "toItemId": "day3-03",
-    "mode": "전철",
-    "durationMinutes": 60,
-    "cost": 390
-  },
-  {
-    "fromItemId": "day3-03",
-    "toItemId": "day3-04",
-    "mode": "전철",
-    "durationMinutes": 30,
-    "cost": 390
-  },
-  {
-    "fromItemId": "day3-04",
-    "toItemId": "day3-05",
     "mode": "도보",
     "durationMinutes": 5,
     "cost": 0
   },
   {
+    "fromItemId": "day3-03",
+    "toItemId": "day3-04",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-04",
+    "toItemId": "day3-05",
+    "mode": "도보",
+    "durationMinutes": 10,
+    "cost": 0
+  },
+  {
     "fromItemId": "day3-05",
     "toItemId": "day3-06",
-    "mode": "전철",
-    "durationMinutes": 20,
-    "cost": 210
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
   },
   {
     "fromItemId": "day3-06",
     "toItemId": "day3-07",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-07",
+    "toItemId": "day3-08",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-08",
+    "toItemId": "day3-09",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-09",
+    "toItemId": "day3-10",
     "mode": "도보",
     "durationMinutes": 2,
     "cost": 0

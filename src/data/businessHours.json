@@ -111,18 +111,18 @@
     "requiresReservation": true
   },
   {
-    "placeName": "세카이노 야마짱 니시키 나카미세점",
+    "placeName": "와규 야키니쿠 탄지 나고야 사카에 니시키점",
     "hours": {
-      "mon": { "open": "17:00", "close": "00:15" },
-      "tue": { "open": "17:00", "close": "00:15" },
-      "wed": { "open": "17:00", "close": "00:15" },
-      "thu": { "open": "17:00", "close": "00:15" },
-      "fri": { "open": "17:00", "close": "00:15" },
-      "sat": { "open": "17:00", "close": "00:15" },
-      "sun": { "open": "17:00", "close": "00:15" }
+      "mon": { "open": "17:00", "close": "23:00" },
+      "tue": { "open": "17:00", "close": "23:00" },
+      "wed": { "open": "17:00", "close": "23:00" },
+      "thu": { "open": "17:00", "close": "23:00" },
+      "fri": { "open": "17:00", "close": "23:00" },
+      "sat": { "open": "12:00", "close": "23:00" },
+      "sun": { "open": "12:00", "close": "23:00" }
     },
     "closedDays": [],
-    "notes": "",
+    "notes": "A5 와규 뷔페 90분제",
     "recommendedStayMinutes": 90,
     "requiresReservation": false
   },
@@ -140,6 +140,22 @@
     "notes": "홈페이지 사전 예약 필수",
     "recommendedStayMinutes": 90,
     "requiresReservation": true
+  },
+  {
+    "placeName": "산본야 본점 JR나고야역점",
+    "hours": {
+      "mon": { "open": "11:00", "close": "21:00" },
+      "tue": { "open": "11:00", "close": "21:00" },
+      "wed": { "open": "11:00", "close": "21:00" },
+      "thu": { "open": "11:00", "close": "21:00" },
+      "fri": { "open": "11:00", "close": "21:00" },
+      "sat": { "open": "11:00", "close": "21:00" },
+      "sun": { "open": "11:00", "close": "21:00" }
+    },
+    "closedDays": [],
+    "notes": "미소니코미 우동 원조, 에스카 지하상가",
+    "recommendedStayMinutes": 50,
+    "requiresReservation": false
   },
   {
     "placeName": "미야 키시멘 (이온몰 나고야 노리타케 가든점)",

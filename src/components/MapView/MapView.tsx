@@ -15,8 +15,11 @@ L.Icon.Default.mergeOptions({
 
 interface Location {
   placeName: string;
+  searchName: string;
   lat: number;
   lng: number;
+  imageUrl: string | null;
+  recommendation: string | null;
 }
 
 interface MapViewProps {
