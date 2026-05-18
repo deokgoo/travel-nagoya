@@ -1,0 +1,109 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.dayTabs {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #fafafa;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.sidebar {
+  display: none;
+}
+
+/* Mobile (320px ~ 767px): single column */
+@media (max-width: 767px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main {
+    padding: 0.75rem;
+  }
+
+  .dayTabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Tablet (768px ~ 1023px): 2-column layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .sidebar {
+    display: block;
+    width: 280px;
+    padding: 1rem;
+    border-left: 1px solid #e5e7eb;
+  }
+}
+
+/* Desktop (1024px+): sidebar + main content multi-column */
+@media (min-width: 1024px) {
+  .content {
+    flex-direction: row;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .main {
+    flex: 1;
+    min-width: 0;
+    padding: 1.5rem;
+  }
+
+  .sidebar {
+    display: block;
+    width: 320px;
+    padding: 1.5rem;
+    border-left: 1px solid #e5e7eb;
+    position: sticky;
+    top: 60px;
+    align-self: flex-start;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+}

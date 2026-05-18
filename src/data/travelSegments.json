@@ -1,0 +1,170 @@
+[
+  {
+    "fromItemId": "day1-01",
+    "toItemId": "day1-02",
+    "mode": "전철",
+    "durationMinutes": 50,
+    "cost": 1170
+  },
+  {
+    "fromItemId": "day1-02",
+    "toItemId": "day1-03",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day1-03",
+    "toItemId": "day1-04",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day1-04",
+    "toItemId": "day1-05",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day1-05",
+    "toItemId": "day1-06",
+    "mode": "도보",
+    "durationMinutes": 10,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day1-06",
+    "toItemId": "day1-07",
+    "mode": "전철",
+    "durationMinutes": 5,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day1-07",
+    "toItemId": "day1-08",
+    "mode": "도보",
+    "durationMinutes": 10,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day1-08",
+    "toItemId": "day1-09",
+    "mode": "도보",
+    "durationMinutes": 15,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day2-01",
+    "toItemId": "day2-02",
+    "mode": "도보",
+    "durationMinutes": 3,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day2-02",
+    "toItemId": "day2-03",
+    "mode": "전철",
+    "durationMinutes": 60,
+    "cost": 630
+  },
+  {
+    "fromItemId": "day2-03",
+    "toItemId": "day2-04",
+    "mode": "전철",
+    "durationMinutes": 60,
+    "cost": 630
+  },
+  {
+    "fromItemId": "day2-04",
+    "toItemId": "day2-05",
+    "mode": "도보",
+    "durationMinutes": 3,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-01",
+    "toItemId": "day3-02",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-02",
+    "toItemId": "day3-03",
+    "mode": "전철",
+    "durationMinutes": 60,
+    "cost": 390
+  },
+  {
+    "fromItemId": "day3-03",
+    "toItemId": "day3-04",
+    "mode": "전철",
+    "durationMinutes": 30,
+    "cost": 390
+  },
+  {
+    "fromItemId": "day3-04",
+    "toItemId": "day3-05",
+    "mode": "도보",
+    "durationMinutes": 5,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day3-05",
+    "toItemId": "day3-06",
+    "mode": "전철",
+    "durationMinutes": 20,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day3-06",
+    "toItemId": "day3-07",
+    "mode": "도보",
+    "durationMinutes": 2,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day4-01",
+    "toItemId": "day4-02",
+    "mode": "전철",
+    "durationMinutes": 15,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day4-02",
+    "toItemId": "day4-03",
+    "mode": "전철",
+    "durationMinutes": 15,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day4-03",
+    "toItemId": "day4-04",
+    "mode": "전철",
+    "durationMinutes": 13,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day4-04",
+    "toItemId": "day4-05",
+    "mode": "도보",
+    "durationMinutes": 3,
+    "cost": 0
+  },
+  {
+    "fromItemId": "day4-05",
+    "toItemId": "day4-06",
+    "mode": "전철",
+    "durationMinutes": 5,
+    "cost": 210
+  },
+  {
+    "fromItemId": "day4-06",
+    "toItemId": "day4-07",
+    "mode": "전철",
+    "durationMinutes": 28,
+    "cost": 1250
+  }
+]

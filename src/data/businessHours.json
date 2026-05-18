@@ -1,0 +1,237 @@
+[
+  {
+    "placeName": "아츠타 호라이켄 마츠자카야점",
+    "hours": {
+      "mon": { "open": "11:00", "close": "22:00" },
+      "tue": { "open": "11:00", "close": "22:00" },
+      "wed": { "open": "11:00", "close": "22:00" },
+      "thu": { "open": "11:00", "close": "22:00" },
+      "fri": { "open": "11:00", "close": "22:00" },
+      "sat": { "open": "11:00", "close": "22:00" },
+      "sun": { "open": "11:00", "close": "22:00" }
+    },
+    "closedDays": [],
+    "notes": "마츠자카야 휴관일에 휴무, 대기표 시스템",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "유니클로, GU, 무인양품 (사카에)",
+    "hours": {
+      "mon": { "open": "10:00", "close": "20:00" },
+      "tue": { "open": "10:00", "close": "20:00" },
+      "wed": { "open": "10:00", "close": "20:00" },
+      "thu": { "open": "10:00", "close": "20:00" },
+      "fri": { "open": "10:00", "close": "20:00" },
+      "sat": { "open": "10:00", "close": "20:00" },
+      "sun": { "open": "10:00", "close": "20:00" }
+    },
+    "closedDays": [],
+    "notes": "스카일 빌딩 + 마루에이 가렐리아",
+    "recommendedStayMinutes": 120,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "오스 상점가",
+    "hours": {
+      "mon": { "open": "10:00", "close": "20:00" },
+      "tue": { "open": "10:00", "close": "20:00" },
+      "wed": { "open": "10:00", "close": "20:00" },
+      "thu": { "open": "10:00", "close": "20:00" },
+      "fri": { "open": "10:00", "close": "20:00" },
+      "sat": { "open": "10:00", "close": "20:00" },
+      "sun": { "open": "10:00", "close": "20:00" }
+    },
+    "closedDays": [],
+    "notes": "점포별 영업시간 상이",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "야바톤 야바초 본점",
+    "hours": {
+      "mon": { "open": "11:00", "close": "21:00" },
+      "tue": { "open": "11:00", "close": "21:00" },
+      "wed": { "open": "11:00", "close": "21:00" },
+      "thu": { "open": "11:00", "close": "21:00" },
+      "fri": { "open": "11:00", "close": "21:00" },
+      "sat": { "open": "11:00", "close": "21:00" },
+      "sun": { "open": "11:00", "close": "21:00" }
+    },
+    "closedDays": [],
+    "notes": "",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "오아시스 21 & 미라이 타워",
+    "hours": {
+      "mon": { "open": "10:00", "close": "21:00" },
+      "tue": { "open": "10:00", "close": "21:00" },
+      "wed": { "open": "10:00", "close": "21:00" },
+      "thu": { "open": "10:00", "close": "21:00" },
+      "fri": { "open": "10:00", "close": "21:00" },
+      "sat": { "open": "10:00", "close": "21:00" },
+      "sun": { "open": "10:00", "close": "21:00" }
+    },
+    "closedDays": [],
+    "notes": "오아시스 21 상시 개방, 미라이 타워 전망대 10:00~21:00",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "코메다 커피 사카에 니시키 3초메점",
+    "hours": {
+      "mon": { "open": "07:00", "close": "23:00" },
+      "tue": { "open": "07:00", "close": "23:00" },
+      "wed": { "open": "07:00", "close": "23:00" },
+      "thu": { "open": "07:00", "close": "23:00" },
+      "fri": { "open": "07:00", "close": "23:00" },
+      "sat": { "open": "07:00", "close": "23:00" },
+      "sun": { "open": "07:00", "close": "23:00" }
+    },
+    "closedDays": [],
+    "notes": "모닝 서비스 (커피 주문 시 토스트 무료)",
+    "recommendedStayMinutes": 45,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "지브리 파크",
+    "hours": {
+      "mon": { "open": "10:00", "close": "17:00" },
+      "wed": { "open": "10:00", "close": "17:00" },
+      "thu": { "open": "10:00", "close": "17:00" },
+      "fri": { "open": "10:00", "close": "17:00" },
+      "sat": { "open": "10:00", "close": "17:00" },
+      "sun": { "open": "10:00", "close": "17:00" }
+    },
+    "closedDays": ["tue"],
+    "notes": "사전 예매 필수 (당일 구매 불가)",
+    "recommendedStayMinutes": 360,
+    "requiresReservation": true
+  },
+  {
+    "placeName": "세카이노 야마짱 니시키 나카미세점",
+    "hours": {
+      "mon": { "open": "17:00", "close": "00:15" },
+      "tue": { "open": "17:00", "close": "00:15" },
+      "wed": { "open": "17:00", "close": "00:15" },
+      "thu": { "open": "17:00", "close": "00:15" },
+      "fri": { "open": "17:00", "close": "00:15" },
+      "sat": { "open": "17:00", "close": "00:15" },
+      "sun": { "open": "17:00", "close": "00:15" }
+    },
+    "closedDays": [],
+    "notes": "",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "기린 맥주 나고야 공장 투어",
+    "hours": {
+      "tue": { "open": "10:00", "close": "16:00" },
+      "wed": { "open": "10:00", "close": "16:00" },
+      "thu": { "open": "10:00", "close": "16:00" },
+      "fri": { "open": "10:00", "close": "16:00" },
+      "sat": { "open": "10:00", "close": "16:00" },
+      "sun": { "open": "10:00", "close": "16:00" }
+    },
+    "closedDays": ["mon"],
+    "notes": "홈페이지 사전 예약 필수",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": true
+  },
+  {
+    "placeName": "미야 키시멘 (이온몰 나고야 노리타케 가든점)",
+    "hours": {
+      "mon": { "open": "11:00", "close": "22:00" },
+      "tue": { "open": "11:00", "close": "22:00" },
+      "wed": { "open": "11:00", "close": "22:00" },
+      "thu": { "open": "11:00", "close": "22:00" },
+      "fri": { "open": "11:00", "close": "22:00" },
+      "sat": { "open": "11:00", "close": "22:00" },
+      "sun": { "open": "11:00", "close": "22:00" }
+    },
+    "closedDays": [],
+    "notes": "이온몰 휴관일에 휴무",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "노리타케의 숲",
+    "hours": {
+      "tue": { "open": "10:00", "close": "17:00" },
+      "wed": { "open": "10:00", "close": "17:00" },
+      "thu": { "open": "10:00", "close": "17:00" },
+      "fri": { "open": "10:00", "close": "17:00" },
+      "sat": { "open": "10:00", "close": "17:00" },
+      "sun": { "open": "10:00", "close": "17:00" }
+    },
+    "closedDays": ["mon"],
+    "notes": "정원 무료, 뮤지엄 유료",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "도리긴 본점",
+    "hours": {
+      "mon": { "open": "17:00", "close": "23:00" },
+      "tue": { "open": "17:00", "close": "23:00" },
+      "wed": { "open": "17:00", "close": "23:00" },
+      "thu": { "open": "17:00", "close": "23:00" },
+      "fri": { "open": "17:00", "close": "23:00" },
+      "sat": { "open": "17:00", "close": "23:00" }
+    },
+    "closedDays": ["sun"],
+    "notes": "나고야 코친 전문",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "아츠타 신궁",
+    "hours": {
+      "mon": { "open": "00:00", "close": "23:59" },
+      "tue": { "open": "00:00", "close": "23:59" },
+      "wed": { "open": "00:00", "close": "23:59" },
+      "thu": { "open": "00:00", "close": "23:59" },
+      "fri": { "open": "00:00", "close": "23:59" },
+      "sat": { "open": "00:00", "close": "23:59" },
+      "sun": { "open": "00:00", "close": "23:59" }
+    },
+    "closedDays": [],
+    "notes": "무료",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "나고야 성 & 혼마루 어전",
+    "hours": {
+      "mon": { "open": "09:00", "close": "16:30" },
+      "tue": { "open": "09:00", "close": "16:30" },
+      "wed": { "open": "09:00", "close": "16:30" },
+      "thu": { "open": "09:00", "close": "16:30" },
+      "fri": { "open": "09:00", "close": "16:30" },
+      "sat": { "open": "09:00", "close": "16:30" },
+      "sun": { "open": "09:00", "close": "16:30" }
+    },
+    "closedDays": [],
+    "notes": "입장료 ¥500",
+    "recommendedStayMinutes": 90,
+    "requiresReservation": false
+  },
+  {
+    "placeName": "스파게티 하우스 요코이 니시키점",
+    "hours": {
+      "mon": { "open": "11:00", "close": "14:30" },
+      "tue": { "open": "11:00", "close": "14:30" },
+      "wed": { "open": "11:00", "close": "14:30" },
+      "thu": { "open": "11:00", "close": "14:30" },
+      "fri": { "open": "11:00", "close": "14:30" },
+      "sat": { "open": "11:00", "close": "14:30" }
+    },
+    "closedDays": ["sun"],
+    "notes": "런치 영업만",
+    "recommendedStayMinutes": 60,
+    "requiresReservation": false
+  }
+]

@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    margin: 0;
+    font-size: 13px;
+    color: #4b5563;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.connector {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px dashed #d1d5db;
+    z-index: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f9fafb;
+    padding: 4px 10px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.modeIcon {
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.duration {
+    font-weight: 500;
+    color: #374151;
+}
+
+.cost {
+    color: #6b7280;
+}
+
+.nullSegment {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f9fafb;
+    padding: 4px 10px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.warningContainer {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+}

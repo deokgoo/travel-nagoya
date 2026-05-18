@@ -1,0 +1,47 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 4px 8px;
+  border-radius: 12px;
+  min-height: 28px;
+  box-sizing: border-box;
+  white-space: normal;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.icon {
+  flex-shrink: 0;
+  font-size: 12px;
+}
+
+.message {
+  font-weight: 500;
+}
+
+/* error: red */
+.error {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+/* warning: orange */
+.warning {
+  background-color: #fff7ed;
+  color: #ea580c;
+}
+
+/* info: blue */
+.info {
+  background-color: #eff6ff;
+  color: #2563eb;
+}
+
+/* unknown: gray */
+.unknown {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "day1-01",
+    "date": "2025-05-21",
+    "startTime": "09:25",
+    "endTime": "10:30",
+    "placeName": "중부국제공항(센트레아) 도착",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": "입국 수속"
+  },
+  {
+    "id": "day1-02",
+    "date": "2025-05-21",
+    "startTime": "10:30",
+    "endTime": "11:20",
+    "placeName": "메이테츠 뮤스카이 → 사카에역",
+    "category": "이동",
+    "estimatedCost": 1170,
+    "memo": "카나야마역 → 메이조선 → 사카에역"
+  },
+  {
+    "id": "day1-03",
+    "date": "2025-05-21",
+    "startTime": "11:30",
+    "endTime": "12:00",
+    "placeName": "호텔 악텔 나고야 니시키",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": "체크인 전 프런트에 수하물 보관"
+  },
+  {
+    "id": "day1-04",
+    "date": "2025-05-21",
+    "startTime": "12:15",
+    "endTime": "14:00",
+    "placeName": "아츠타 호라이켄 마츠자카야점",
+    "category": "식사",
+    "estimatedCost": 4600,
+    "memo": "히츠마부시, 대기표 먼저 받기"
+  },
+  {
+    "id": "day1-05",
+    "date": "2025-05-21",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "placeName": "유니클로, GU, 무인양품 (사카에)",
+    "category": "쇼핑",
+    "estimatedCost": 0,
+    "memo": "스카일 빌딩(5F 유니클로, 6F GU), 마루에이 가렐리아(1~3F 무인양품)"
+  },
+  {
+    "id": "day1-06",
+    "date": "2025-05-21",
+    "startTime": "17:00",
+    "endTime": "17:30",
+    "placeName": "호텔 악텔 니시키 (짐 보관)",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": "도보 5~10분"
+  },
+  {
+    "id": "day1-07",
+    "date": "2025-05-21",
+    "startTime": "17:45",
+    "endTime": "18:45",
+    "placeName": "오스 상점가",
+    "category": "관광",
+    "estimatedCost": 0,
+    "memo": "사카에역 → 카미마에즈역 (메이조선)"
+  },
+  {
+    "id": "day1-08",
+    "date": "2025-05-21",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "placeName": "야바톤 야바초 본점",
+    "category": "식사",
+    "estimatedCost": 2000,
+    "memo": "미소카츠, 오스 상점가에서 도보"
+  },
+  {
+    "id": "day1-09",
+    "date": "2025-05-21",
+    "startTime": "20:15",
+    "endTime": "21:30",
+    "placeName": "오아시스 21 & 미라이 타워",
+    "category": "관광",
+    "estimatedCost": 0,
+    "memo": "야경 촬영 후 도보로 호텔 복귀"
+  },
+  {
+    "id": "day2-01",
+    "date": "2025-05-22",
+    "startTime": "08:00",
+    "endTime": "08:45",
+    "placeName": "코메다 커피 사카에 니시키 3초메점",
+    "category": "식사",
+    "estimatedCost": 600,
+    "memo": "커피 주문 시 토스트 무료"
+  },
+  {
+    "id": "day2-02",
+    "date": "2025-05-22",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "placeName": "사카에역 → 지브리 파크 이동",
+    "category": "이동",
+    "estimatedCost": 630,
+    "memo": "히가시야마선 + 리니모 환승"
+  },
+  {
+    "id": "day2-03",
+    "date": "2025-05-22",
+    "startTime": "10:00",
+    "endTime": "17:00",
+    "placeName": "지브리 파크",
+    "category": "관광",
+    "estimatedCost": 0,
+    "memo": "사전 예매 바우처 필수, 점심 미리 준비 권장"
+  },
+  {
+    "id": "day2-04",
+    "date": "2025-05-22",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "placeName": "사카에역 복귀 후 호텔 재정비",
+    "category": "이동",
+    "estimatedCost": 630,
+    "memo": "리니모 + 히가시야마선"
+  },
+  {
+    "id": "day2-05",
+    "date": "2025-05-22",
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "placeName": "세카이노 야마짱 니시키 나카미세점",
+    "category": "식사",
+    "estimatedCost": 3000,
+    "memo": "호텔 도보 3분, 테바사키+맥주"
+  },
+  {
+    "id": "day3-01",
+    "date": "2025-05-23",
+    "startTime": "09:00",
+    "endTime": "09:45",
+    "placeName": "인근 베이커리 또는 편의점",
+    "category": "식사",
+    "estimatedCost": 500,
+    "memo": ""
+  },
+  {
+    "id": "day3-02",
+    "date": "2025-05-23",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "placeName": "사카에역 → 기린 공장 이동",
+    "category": "이동",
+    "estimatedCost": 390,
+    "memo": "JR 도카이도 본선 + 셔틀버스"
+  },
+  {
+    "id": "day3-03",
+    "date": "2025-05-23",
+    "startTime": "11:30",
+    "endTime": "13:00",
+    "placeName": "기린 맥주 나고야 공장 투어",
+    "category": "관광",
+    "estimatedCost": 500,
+    "memo": "홈페이지 사전 예약 필수, 생맥주 시음 포함"
+  },
+  {
+    "id": "day3-04",
+    "date": "2025-05-23",
+    "startTime": "13:30",
+    "endTime": "14:30",
+    "placeName": "미야 키시멘 (이온몰 나고야 노리타케 가든점)",
+    "category": "식사",
+    "estimatedCost": 900,
+    "memo": "비와지마역→나고야역 복귀 후 도보"
+  },
+  {
+    "id": "day3-05",
+    "date": "2025-05-23",
+    "startTime": "14:30",
+    "endTime": "16:30",
+    "placeName": "노리타케의 숲",
+    "category": "관광",
+    "estimatedCost": 0,
+    "memo": "정원과 붉은 벽돌 건물 산책"
+  },
+  {
+    "id": "day3-06",
+    "date": "2025-05-23",
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "placeName": "나고야역 주변 구경 후 사카에 호텔 복귀",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": ""
+  },
+  {
+    "id": "day3-07",
+    "date": "2025-05-23",
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "placeName": "도리긴 본점",
+    "category": "식사",
+    "estimatedCost": 4500,
+    "memo": "나고야 코친 요리, 호텔 도보 2분, 숯불구이+솥밥"
+  },
+  {
+    "id": "day4-01",
+    "date": "2025-05-24",
+    "startTime": "08:30",
+    "endTime": "09:00",
+    "placeName": "체크아웃 후 프런트에 짐 보관",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": ""
+  },
+  {
+    "id": "day4-02",
+    "date": "2025-05-24",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "placeName": "아츠타 신궁",
+    "category": "관광",
+    "estimatedCost": 0,
+    "memo": "사카에역→진구니시역(메이조선), 도보 5분"
+  },
+  {
+    "id": "day4-03",
+    "date": "2025-05-24",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "placeName": "나고야 성 & 혼마루 어전",
+    "category": "관광",
+    "estimatedCost": 500,
+    "memo": "진구니시역→나고야조역(메이조선 15분)"
+  },
+  {
+    "id": "day4-04",
+    "date": "2025-05-24",
+    "startTime": "13:30",
+    "endTime": "14:30",
+    "placeName": "스파게티 하우스 요코이 니시키점",
+    "category": "식사",
+    "estimatedCost": 1100,
+    "memo": "앙카케 스파게티"
+  },
+  {
+    "id": "day4-05",
+    "date": "2025-05-24",
+    "startTime": "14:30",
+    "endTime": "15:30",
+    "placeName": "호텔 짐 찾기 → 사카에역 → 나고야역",
+    "category": "이동",
+    "estimatedCost": 210,
+    "memo": "히가시야마선"
+  },
+  {
+    "id": "day4-06",
+    "date": "2025-05-24",
+    "startTime": "15:30",
+    "endTime": "16:30",
+    "placeName": "나고야역 → 중부국제공항 (뮤스카이)",
+    "category": "이동",
+    "estimatedCost": 1250,
+    "memo": "메이테츠 공항특급"
+  },
+  {
+    "id": "day4-07",
+    "date": "2025-05-24",
+    "startTime": "16:45",
+    "endTime": "19:00",
+    "placeName": "공항 도착 및 출국 수속",
+    "category": "이동",
+    "estimatedCost": 0,
+    "memo": "출발 2시간 15분 전 도착"
+  }
+]
