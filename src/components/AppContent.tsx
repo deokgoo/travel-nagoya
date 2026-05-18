@@ -4,6 +4,7 @@ import { Layout } from '@/components/Layout/Layout';
 import { DayTabs } from '@/components/DayTabs/DayTabs';
 import { TimelineView } from '@/components/TimelineView/TimelineView';
 import { CostSummaryView } from '@/components/CostSummaryView/CostSummaryView';
+import { MapView } from '@/components/MapView/MapView';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { validateSchedule } from '@/logic/scheduleValidator';
 import { calculateDailyCosts, calculateTotalCosts } from '@/logic/costCalculator';
@@ -81,6 +82,7 @@ export function AppContent() {
         warnings={warnings}
         businessHoursResults={businessHoursResults}
       />
+      <MapView scheduleItems={items} />
       <CostSummaryView dailyCosts={dailyCosts} totalCost={totalCost} />
     </Layout>
   );
